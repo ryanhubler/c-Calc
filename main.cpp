@@ -52,7 +52,16 @@ int main()
     {
         cout << cos(x);
     }
-        
+    if ( trigchoice == 2)
+    {
+        cout << sin(x);
+    }
+    if ( trigchoice == 3)
+    {
+        cout << tan(x);
+    }
+ 
+
     }
     else if ( choice != 1,2,3,4,5)
     {
@@ -60,4 +69,5 @@ int main()
     }
     return 0;
 }
+
 
