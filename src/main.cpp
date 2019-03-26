@@ -3,13 +3,15 @@
 #include <cmath>
 using namespace std;
 
+int trigchoice;
+char choice;
+float x;
+float y;
+
 int main()
 {
-        int trigchoice;
-        char choice;
-        float x;
-        float y;
-        cout << "What operation would you like to do + | - | / | * ";
+  for( ; ; ) {
+      cout << "What operation would you like to do + | - | / | * ";
         cin  >> choice;
     if ( choice == '+')
     {
@@ -67,5 +69,5 @@ int main()
     {
         cout << "Not a choice you idiot";
     }
-    return 0;
+  }
 }
