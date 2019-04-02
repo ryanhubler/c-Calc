@@ -9,63 +9,66 @@ int main()
         char choice;
         float x;
         float y;
+
+    while( 1 == 1 ) {
         cout << "What operation would you like to do + | - | / | * ";
         cin  >> choice;
-    if ( choice == '+')
-    {
-        cout << "Input first number";
-        cin >> x;
-        cout << "Input second number";
-        cin >> y;
-        cout << x + y;
+        if ( choice == '+')
+            {
+            cout << "Input first number";
+            cin >> x;
+            cout << "Input second number";
+            cin >> y;
+            cout << x + y;
     }
-    else if ( choice == '-')
+        else if ( choice == '-')
     {
-        cout << "Input first number";
-        cin >> x;
-        cout << "Input second number";
-        cin >> y;
-        cout << x - y;
+            cout << "Input first number";
+            cin >> x;
+            cout << "Input second number";
+            cin >> y;
+            cout << x - y;
     }
-    else if (choice == '/')
+            else if (choice == '/')
     {
-        cout << "Input first number";
-        cin >> x;
-        cout << "Input second number";
-        cin >> y;
-        cout << x / y;
+            cout << "Input first number";
+            cin >> x;
+            cout << "Input second number";
+            cin >> y;
+            cout << x / y;
     }
-    else if (choice == '*')
+        else if (choice == '*')
     {
-        cout << "Input first number";
-        cin >> x;
-        cout << "Input second number";
-        cin >> y;
-        cout << x * y;
+            cout << "Input first number";
+            cin >> x;
+            cout << "Input second number";
+            cin >> y;
+            cout << x * y;
     }
-    else if ( choice == 5)
+        else if ( choice == 5)
     {
-        cout << "Welcome to trig 1. Cos 2. Sine 3. Tan";
-        cin >> trigchoice;
-        cin >> x;
-    if ( trigchoice == 1)
+            cout << "Welcome to trig 1. Cos 2. Sine 3. Tan";
+            cin >> trigchoice;
+            cin >> x;
+        if ( trigchoice == 1)
     {
         cout << cos(x);
     }
-    if ( trigchoice == 2)
+        if ( trigchoice == 2)
     {
-        cout << sin(x);
+            cout << sin(x);
     }
-    if ( trigchoice == 3)
+        if ( trigchoice == 3)
     {
-        cout << tan(x);
+            cout << tan(x);
     }
- 
+
 
     }
-    else if ( choice != '+',2,3,4,5)
-    {
-        cout << "Not a choice you idiot";
-    }
+        
+    cout << " " << endl;
+   }
+
+
     return 0;
 }
